@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.1.0 (2025-12-24)
+
+### Features
+* **Individual Grenade Activation Modes**: Separated grenade activation modes into independent configurations for each grenade type
+  - Incendiary Grenade: Toggle, Hold, or None modes
+  - Voltaic Grenade: Toggle, Hold, or None modes
+  - Acid Grenade: Toggle, Hold, or None modes
+* **Hold Mode Fix**: Corrected hold mode behavior for proper continuous auto-throw while holding the throw button
+
+### Configuration
+* Updated grenade configurations under "General" section:
+  - `IncendiaryGrenadeActivationMode`: Controls incendiary grenade behavior (None/Hold/Toggle)
+  - `VoltaicGrenadeActivationMode`: Controls voltaic grenade behavior (None/Hold/Toggle)
+  - `AcidGrenadeActivationMode`: Controls acid grenade behavior (None/Hold/Toggle)
+
 ## 1.0.0 (2025-08-19)
 
 ### Features
